@@ -1,11 +1,13 @@
 from MathUtil import EPSILON 
 from MathUtil import sqrtReal
 
+from math import sqrt
+
 def test_result(a, b, c, x1, x2):
     return abs(a*x1**2 + b*x1 + c) < EPSILON and abs(a*x2**2 + b*x2 + c) < EPSILON
 
 def solveQuadratic(a, b, c):
-    
+    sqrtReal(a)
     pass
 
 if __name__ == "__main__":
